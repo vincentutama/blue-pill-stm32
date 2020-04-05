@@ -15,6 +15,7 @@ Short version of the guide
 2. Install VSCode.
 3. Install C/C++ Extension.
 4. Install PlatformIO.
+  - Configure the serial port
 5. Wire the board to ST-Link uploader.
 6. Load an example arduino program to your blue pill stm32 board.
 
@@ -26,4 +27,14 @@ VSCode can be installed using snap
   #installing vscode
   sudo snap install code --classic
 ```
+to uninstall using snap
+```bash
+  sudo snap remove code
+```
+
+VSCode can also be installed using .deb package, simply install GDebi package installer, download VSCode .deb package, and open it using GDebi to install or uninstall VSCode.
+
+You should be able to run VSCode now.
+
+Next install C/C++ Extension and PlatformIO via extension manager.
 
