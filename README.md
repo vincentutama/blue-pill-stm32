@@ -21,9 +21,9 @@ Short version of the guide
 # Installation
 VSCode can be installed using snap
 ```bash
-  //install snap if you haven't
+  #install snap if you haven't
   sudo apt-get install snapd
-  //installing vscode
+  #installing vscode
   sudo snap install code --classic
 ```
 
